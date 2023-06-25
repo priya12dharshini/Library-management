@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bona+Nova:ital@1&family=Lobster&family=Lora&family=Nunito:wght@300;400&family=Tilt+Prism&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.about h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.mission {
+    font-size: 20px;
+    font-family: 'Bona Nova', serif;
+}
+
+.container {
+    text-align: center;
+}
