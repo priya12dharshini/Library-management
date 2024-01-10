@@ -5,7 +5,7 @@ import './style1.css';
 import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../context/appContext';
 
-const Scroll = (book) => {
+const Scroll = () => {
   const [show, setShow] = useState(false);
   const [bookItem, setItem] = useState();
   const [books, setBooks] = useState([]);
@@ -22,8 +22,8 @@ const Scroll = (book) => {
       try {
         const response = await axios.get('https://www.googleapis.com/books/v1/volumes', {
           params: {
-            q: 'Novel', // Query parameter (modify as needed)
-            maxResults: 40, // Number of results to retrieve (adjust as needed)
+            q: 'fiction', 
+            maxResults: 40, 
           },
         });
         console.log(response.data.items);

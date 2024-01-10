@@ -11,7 +11,7 @@ const Card = ({ book }) => {
                 book.map((item) => {
                     let thumbnail=item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail;
                     let amount=item.saleInfo.listPrice && item.saleInfo.listPrice.amount;
-                    let sale=item.saleInfo.buyLink && item.saleInfo.buyLink.sale;
+                    /*let sale=item.saleInfo.buyLink && item.saleInfo.buyLink.sale;*/
                     if(thumbnail!= undefined && amount!= undefined)
                     {
                         return (

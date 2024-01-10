@@ -7,7 +7,7 @@ const Modal = ({show,item,onClose}) => {
         return null;
     }
     let thumbnail=item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail;
-    let sale=item.saleInfo.buyLink && item.saleInfo.buyLink.sale;
+    /*let sale=item.saleInfo.buyLink && item.saleInfo.buyLink.sale;*/
   return (
     <>
     <div className='overlay'>

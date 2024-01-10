@@ -19,9 +19,6 @@ const NavigationBar = () => {
           <Link to="/favorites"><b>Favorites</b></Link>
         </li>
         <li className='navItem'>
-          <Link to="/cart"><b>Cart</b></Link>
-        </li>
-        <li className='navItem'>
           <Link to="/about"><b>About Us</b></Link>
         </li>
       </ul>
